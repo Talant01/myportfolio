@@ -1,0 +1,691 @@
+/*-----Fonts-----*/
+
+@font-face {
+	font-family: 'MuseoSansCyrl-100';
+	src: url('../fonts/MuseoSansCyrl-100.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+		/* Modern Browsers */
+		url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+	/* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl-300';
+	src: url('../fonts/MuseoSansCyrl-300.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'),
+		/* Modern Browsers */
+		url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+	/* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MuseoSansCyrl-900';
+	src: url('../fonts/MuseoSansCyrl-900.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+		/* Modern Browsers */
+		url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+	/* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Natasha';
+	src: url('../fonts/Natasha.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/Natasha.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/Natasha.woff2') format('woff2'),
+		/* Modern Browsers */
+		url('../fonts/Natasha.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/Natasha.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/Natasha.svg#Natasha') format('svg');
+	/* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Stroke-Gap-Icons';
+	src: url('../fonts/fonts/Stroke-Gap-Icons.eot');
+	/* IE9 Compat Modes */
+	src: url('../fonts/fonts/Stroke-Gap-Icons.eot?#iefix') format('embedded-opentype'),
+		/* IE6-IE8 */
+		url('../fonts/fonts/Stroke-Gap-Icons.woff') format('woff'),
+		/* Modern Browsers */
+		url('../fonts/fonts/Stroke-Gap-Icons.ttf') format('truetype'),
+		/* Safari, Android, iOS */
+		url('../fonts/fonts/Stroke-Gap-Icons.svg#Stroke-Gap-Icons') format('svg');
+	/* Legacy iOS */
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "MuseoSansCyrl-300", sans-serif;
+	color: #22241b;
+	letter-spacing: 0.12em;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+
+div,
+p,
+form,
+input,
+a,
+span,
+button {
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	padding: 0;
+	margin: 0;
+	line-height: 1.32em;
+}
+
+ul,
+li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+a:hover,
+a:active {
+	text-decoration: none;
+	outline: none;
+}
+
+a,
+button,
+input {
+	transition: all 0.5s ease;
+	font-family: inherit;
+	color: inherit;
+}
+
+input,
+textarea,
+button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	outline: none;
+}
+
+
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+}
+
+.justify-content-between {
+	justify-content: space-between;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.justify-content-around {
+	justify-content: space-around;
+}
+
+.align-items-center {
+	align-items: center;
+}
+
+.flex-direction-row-reverse {
+	flex-direction: row-reverse;
+}
+
+.secondary-title {
+	font-size: 37px;
+	letter-spacing: 0.1em;
+	font-family: "Natasha", sans-serif;
+}
+
+.third-title {
+	font-size: 22px;
+	opacity: 0.66;
+	letter-spacing: 0.1em;
+	font-family: "Natasha", sans-serif;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url(../img/main-bg.jpg) no-repeat center top / cover;
+	padding: 51px 0 84px;
+	color: #fff;
+	text-align: center;
+}
+
+.logo {
+	text-transform: uppercase;
+	font-size: 17px;
+	letter-spacing: 2.04px;
+	font-family: "MuseoSansCyrl-100";
+}
+
+.logo span {
+	font-family: "MuseoSansCyrl-900";
+}
+
+.menu {
+	width: 321px;
+	margin-left: 20px;
+	list-style-type: lower-latin
+}
+
+.menu__item a {
+	font-family: "MuseoSansCyrl-900";
+	text-transform: uppercase;
+	list-style-type: circle;
+}
+
+.menu__item a::after {
+	content: '';
+	display: block;
+	width: 60px;
+	text-align: center;
+	margin: 0 auto;
+	opacity: 0;
+	border: 1px solid #000;
+	transition: all 0.5s ease;
+}
+
+.menu__item a:hover::after {
+	opacity: 1;
+}
+
+.menu__item a:hover {
+	color: #000;
+}
+
+.mail {
+	font-size: 13px;
+}
+
+.mail::after {
+	content: '';
+	display: block;
+	width: 135px;
+	opacity: 0.35;
+	border: 0.5px solid #6b6e69;
+}
+
+.mail:hover {
+	color: #6b6c68;
+}
+
+.offer {
+	margin: 280px 0 261px;
+}
+
+.offer__title {
+	font-size: 49px;
+	margin-bottom: 21px;
+	letter-spacing: 0.12em;
+	font-family: "Natasha", sans-serif;
+}
+
+.offer__text {
+	font-size: 29px;
+	text-transform: uppercase;
+	font-family: "MuseoSansCyrl-100";
+	letter-spacing: 0.12em;
+}
+
+.arrow-down {
+	text-transform: uppercase;
+	font-family: Arial;
+	font-size: 18px;
+	border: 1px solid;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	letter-spacing: 0;
+	margin: 0 auto;
+}
+
+.arrow-down:hover {
+	color: #000;
+	border-color: #000;
+}
+
+.about {
+	padding: 77px 0 83px;
+}
+
+.information {
+	margin-top: 62px;
+}
+
+.back {
+	max-width: 451px;
+	margin-right: 40px;
+}
+
+.back__text {
+	margin-top: 34px;
+}
+
+.back__text p {
+	letter-spacing: 0.026em;
+	margin-bottom: 27px;
+	line-height: 1.8em;
+	font-family: "MuseoSansCyrl-100";
+}
+
+.back__text p:last-child {
+	margin-bottom: 0;
+}
+
+
+.merit {
+	margin-bottom: 56px;
+}
+
+.merit__items {
+	margin-top: 57px;
+	margin: 57px auto 0;
+	width: 432px;
+}
+
+.merit__item {
+	text-align: center;
+}
+
+.merit__rhomb {
+	font-size: 20px;
+	color: #204d15;
+	width: 72px;
+	height: 72px;
+	border: 1px solid #204d15;
+	position: relative;
+	transform: rotate(45deg);
+	margin: 0 auto;
+	display: flex;
+}
+
+.merit__rhomb span {
+	display: block;
+	margin: auto;
+	transform: rotate(-45deg);
+}
+
+.merit__rhomb::after {
+	content: '';
+	display: block;
+	border: 1px solid #c6d6bb;
+	width: 56px;
+	height: 56px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+.merit__text {
+	margin-top: 37px;
+	letter-spacing: 0.02em;
+	font-size: 12px;
+	width: 112px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	font-weight: 400;
+}
+
+
+.wrapper {
+	margin-top: 31px;
+	color: #204d15;
+}
+
+
+.social li:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.social__account {
+	font-size: 14px;
+	color: #204d15;
+	border-bottom: 1px solid #becbbb;
+}
+
+.chat {
+	margin-left: 50px;
+	width: 250px;
+}
+
+.icon-User {
+	display: block;
+	width: 64px;
+	line-height: 64px;
+	text-align: center;
+	background-color: #eef1ed;
+	font-family: "Stroke-Gap-Icons";
+	font-size: 25px;
+	color: #204d15;
+	border-radius: 50%;
+	border: none;
+}
+
+.icon__text {
+	font-size: 14px;
+	color: #22241b;
+	opacity: 0.72;
+	font-style: italic;
+	letter-spacing: 0.02em;
+	margin-left: 12px;
+}
+
+.skill {
+	padding-bottom: 76px;
+}
+
+.list {
+	margin-top: 53px;
+}
+
+.list__item {
+	width: 240px;
+}
+
+.list__circle {
+	font-size: 13px;
+	color: #204d15;
+	border: 1px solid #65845d;
+	width: 61px;
+	height: 61px;
+	position: relative;
+	line-height: 61px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.list__circle::after {
+	content: '';
+	display: block;
+	position: absolute;
+	border: 1px solid #adb2ac;
+	width: 51px;
+	height: 51px;
+	margin: auto;
+	border-radius: 50%;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.list__text {
+	font-family: "MuseoSansCyrl-900";
+	margin-left: 10px;
+	opacity: 0.89;
+	text-transform: uppercase;
+	margin-left: 26px;
+}
+
+.work {
+	padding-bottom: 114px;
+}
+
+.portfolio {
+	margin-top: 52px;
+}
+
+.portfolio__item {
+	width: 32%;
+	position: relative;
+	max-width: 302px;
+	margin: 0 auto;
+}
+
+.portfolio__item img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.portfolio__hover {
+	opacity: 0;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.56);
+	left: 0;
+	top: 0;
+	color: #ffffff;
+	width: 100%;
+	;
+	height: 100%;
+	text-align: center;
+	transition: all 0.5s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.portfolio__text {
+	font-family: "MuseoSansCyrl-900";
+	text-transform: uppercase;
+	letter-spacing: 0.02em;
+}
+
+.portfolio__link {
+	font-size: 13px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.46);
+	letter-spacing: 0.02em;
+}
+
+.portfolio__hover:hover {
+	opacity: 1;
+	transition: all 0.5s ease;
+}
+
+.footer {
+	padding-bottom: 110px;
+}
+
+.time {
+	font-size: 11px;
+	opacity: 0.66;
+	text-transform: uppercase;
+}
+
+/* ------ Media Queries ------ */
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 700px;
+	}
+
+	.information {
+		flex-direction: column;
+	}
+
+	.secondary-title,
+	.third-title {
+		text-align: center;
+	}
+
+	.back {
+		max-width: 100%;
+		margin-bottom: 34px;
+		margin-right: 0;
+	}
+
+	.merit__items {
+		width: 100%;
+	}
+
+	.merit__items,
+	.wrapper {
+		justify-content: space-around;
+	}
+
+	.list {
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.list__item {
+		margin-bottom: 32px;
+	}
+
+	.skill {
+		padding-bottom: 44px;
+	}
+
+	.about {
+		padding-top: 50px;
+	}
+
+	.information {
+		margin-top: 42px;
+	}
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 520px;
+	}
+
+	.offer {
+		margin: 100px 0 147px;
+	}
+
+	.portfolio {
+		flex-direction: column;
+	}
+
+	.portfolio__item {
+		margin-bottom: 10px;
+		width: 100%;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.offer__text {
+		font-size: 22px;
+	}
+
+	.offer__title {
+		font-size: 41px;
+	}
+
+	.secondary-title {
+		font-size: 33px;
+	}
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+	.navigation {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.logo {
+		margin-bottom: 10px;
+	}
+
+	.merit__items {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.merit__item {
+		margin-bottom: 40px;
+	}
+
+	.merit__item:last-child {
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+
+	.merit__item:first-child {
+		margin-left: 0;
+	}
+
+	.wrapper {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.social {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.chat {
+		margin-left: 0;
+	}
+}
